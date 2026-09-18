@@ -58,7 +58,7 @@
     .phone img { display: block; width: 100%; }
 
     .features { padding: 2.5rem 0; }
-    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
     .card { background: var(--card); border-radius: 20px; padding: 1.4rem; }
     .card .tag { margin-bottom: .8rem; }
     .card h3 { margin: 0 0 .4rem; font-size: 1.1rem; }
