@@ -95,7 +95,7 @@
       .story .copy p { margin: 0 auto; }
       .hero { padding-top: 2rem; }
       nav { gap: 1rem; }
-      nav a.cta { display: none; }
+      nav a.cta, nav a.wide { display: none; }
     }
   
     /* Content pages */
@@ -103,6 +103,8 @@
     main.page .wrap { max-width: 44rem; }
     main.page h1 { font-size: clamp(1.8rem, 4vw, 2.4rem); letter-spacing: -.02em; margin: .5rem 0 .3rem; }
     main.page .meta { color: var(--muted); margin: 0 0 1.5rem; }
+    /* Changelog: the date sits right under its version. */
+    main.page h2 + .meta { margin: -.3rem 0 .8rem; font-size: .9rem; }
     main.page h2 { font-size: 1.3rem; margin: 2.2rem 0 .6rem; }
     main.page h3 { font-size: 1.05rem; margin: 1.6rem 0 .3rem; }
     main.page p, main.page li { color: var(--ink); }
